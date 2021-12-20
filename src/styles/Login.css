@@ -12,6 +12,8 @@
   height: 700px;
   position: absolute;
   width: 400px;
+  top: 50%;
+  margin-top: -300px;
 }
 
 .login form {

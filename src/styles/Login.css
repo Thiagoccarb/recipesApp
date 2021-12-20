@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin : 0
+}
+
+.login {
+  background-image: url('../images/cooking-recipes.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 50%;
+  margin-left: -200px;
+  height: 700px;
+  position: absolute;
+  width: 400px;
+}
+
+.login form {
+  backdrop-filter: blur(10px) saturate(180%) opacity(0.8) /* ...and on and on... */;
+  border: solid 1px black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  left: 50%;
+  margin-left: -125px;
+  position: absolute;
+  top: 100px;
+  width: 250px;
+}
+
+.login form h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: auto;
+}
+
+.login form label {
+  border: none;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.login form input {
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.login form input:focus {
+  outline: none;
+  border: 1px solid rgb(15, 161, 245);
+}
+
+.login form button {
+  border-radius: 5px;
+  background-color: rgb(2, 130, 235);
+  color:white;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 15px auto;
+  padding: 3px;
+  width: 100px; 
+}
+
+.login form button:disabled {
+  border-radius: 5px;
+  background-color: rgb(39, 39, 61);
+  color:white;
+  font-size: 20px;
+  margin: 15px auto;
+  padding: 3px;
+  width: 100px;
+}

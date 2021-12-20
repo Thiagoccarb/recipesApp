@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  align-items: center;
+  background-image: linear-gradient(#ff4800, #ffb600);
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  margin: auto;
+  width: 100vw;
+}
+
+.header span {
+  font-size: 30px;
+  font-weight: 700;  
+}
+
+.header input {
+  width: 50px;
+}
+
+.search-input {
+  margin: 5px;
+  text-align: center;
+}
+
+.search-input input {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.radio-button {
+  height: auto;
+  text-align: center;
+}
+
+.radio-button input {
+  margin: 5px;
+}
+
+.radio-button button {
+  background-color: #143642;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  margin-left: 3px;
+  padding: 5px;
+}
+
+

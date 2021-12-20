@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.options-container h1 {
+  color: #001219;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 15px 0;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.options a {
+  margin-top: 10px;
+}
+
+.options a h2 {
+  color: #0615a1;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 15px 0;
+  text-align: center;
+  text-shadow: 2px 2px 2px #797979;
+}
+
+.options a button {
+  background-color: #143642;
+  border-radius: 2px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  margin: 7px;
+  padding: 10px;
+}

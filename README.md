@@ -1,10 +1,8 @@
 # Boas vindas ao repositório do projeto de Receitas!
 
 # Funcionalidades
- - Um aplicativo de receitas (bebidas e comidas) com inúmeras funcionalidades.
+ - Um aplicativo completo de receitas (coquetéis e comidas) com inúmeras funcionalidades.
  - Gerenciamento do estado é feito através do Redux.
- - O usuário pode salvar, favoritar receitas, há uma funcionalidade com receitas feitas.
- - Caso o usuário queria continuar uma receita já iniciada, há essa opção.
 
 ## APIs
 
